@@ -1,0 +1,21 @@
+.measurements-table__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.measurements-table__table td {
+  border: 1px solid lightgray;
+}
+
+.measurements-table__table tbody tr:nth-child(2n) {
+    background: #f0f0f0;
+} 
+.measurements-table__table tbody tr:nth-child(1) {
+    background: #ffffff; 
+} 
+
+.measurements-table__caption {
+  text-align: right;
+  margin-right: 50px;
+  color: blue;
+}
